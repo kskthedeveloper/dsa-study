@@ -2,7 +2,7 @@ package org.me.leetcodestudy.ContainsDupilcate;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.me.leetcodestudy.ContainsDuplicate.*;
+import org.me.leetcodestudy.containsDuplicate.*;
 
 import java.util.Arrays;
 import java.util.List;
