@@ -1,5 +1,7 @@
 package org.me.leetcodestudy.isAnagram;
 
+import org.me.leetcodestudy.Algorithm;
+
 /*
 Is Anagram
 Given two strings s and t, return true if the two strings are anagrams of each other, otherwise return false.
@@ -21,6 +23,11 @@ Constraints:
 s and t consist of lowercase English letters.
 
  */
-public interface AnagramChecker {
+public interface AnagramChecker extends Algorithm<String[], Boolean> {
     boolean isAnagram(String s, String t);
+
+    @Override
+    default Boolean apply(String[] input) {
+        return isAnagram(input[0], input[1]);
+    }
 }

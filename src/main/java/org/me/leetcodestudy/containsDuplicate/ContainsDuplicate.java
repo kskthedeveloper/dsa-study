@@ -43,6 +43,13 @@ Constraints:
 
  */
 
-public interface ContainsDuplicate {
+import org.me.leetcodestudy.Algorithm;
+
+public interface ContainsDuplicate extends Algorithm<int[], Boolean> {
     boolean containsDuplicate(int[] nums);
+
+    @Override
+    default Boolean apply(int[] input) {
+        return containsDuplicate(input);
+    }
 }
