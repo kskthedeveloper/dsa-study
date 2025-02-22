@@ -185,4 +185,67 @@ public class LinkedList {
         return false;
     }
 
+    public boolean insert(int index, int value) {
+        if (index < 0 || index > this.length) return false;
+
+        if (index == 0) {
+            this.prepend(value);
+            return true;
+        }
+
+        if (index == this.length) {
+            this.append(value);
+            return true;
+        }
+
+        Node newNode = new Node(value);
+        Node temp = get(index - 1);
+
+        if (temp == null) {
+            return false;
+        }
+
+        newNode.next = temp.next;
+        temp.next = newNode;
+        length++;
+        return true;
+    }
+
+    public Node remove(int index) {
+        if (index < 0 || index >= length) {
+            return null;
+        }
+
+        if (index == 0) {
+            return this.removeFirst();
+        }
+
+        if (index == length -1 ) {
+            return this.removeLast();
+        }
+
+        Node pre = this.get(index-1);
+        Node temp = pre.next;
+        pre.next = temp.next;
+        temp.next = null;
+        length--;
+        return temp;
+    }
+
+    public void reverse() {
+        Node temp = this.head;
+        this.head = this.tail;
+        this.tail = temp;
+
+        Node after = null;
+        Node before = null;
+
+        for (int i = 0; i < this.length; i++) {
+            after = temp.next;
+            temp.next = before;
+            before = temp;
+            temp = after;
+        }
+    }
+
 }
