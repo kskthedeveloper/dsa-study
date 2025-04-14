@@ -1,4 +1,4 @@
-package org.me.leetcodestudy.isAnagram;
+package org.me.leetcodestudy.arrayandhashing.isAnagram;
 
 public class SingleArrayApproach implements AnagramChecker {
     @Override

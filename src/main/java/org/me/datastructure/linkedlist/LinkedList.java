@@ -248,4 +248,52 @@ public class LinkedList {
         }
     }
 
+    public Node linkedListReversalRecursive(Node head) {
+        if (head == null || head.next == null) {
+            return head;
+        }
+
+        Node newHead = linkedListReversalRecursive(head.next);
+
+        head.next.next = head;
+        head.next = null;
+
+        return newHead;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

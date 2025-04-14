@@ -1,6 +1,7 @@
 package org.me.leetcodestudy.twoIntegerSum;
 
 import org.junit.jupiter.api.Test;
+import org.me.leetcodestudy.arrayandhashing.twoIntegerSum.HashMapApproach;
 
 import static org.junit.jupiter.api.Assertions.*;
 

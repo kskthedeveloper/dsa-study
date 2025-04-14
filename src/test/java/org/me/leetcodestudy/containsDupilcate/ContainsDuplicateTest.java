@@ -1,10 +1,10 @@
-package org.me.leetcodestudy.ContainsDupilcate;
+package org.me.leetcodestudy.containsDupilcate;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.me.leetcodestudy.TestCase;
 import org.me.leetcodestudy.TestRunner;
-import org.me.leetcodestudy.containsDuplicate.*;
+import org.me.leetcodestudy.arrayandhashing.containsDuplicate.*;
 
 import java.util.List;
 

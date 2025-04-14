@@ -1,4 +1,4 @@
-package org.me.leetcodestudy.twoIntegerSum;
+package org.me.leetcodestudy.arrayandhashing.twoIntegerSum;
 
 import java.util.HashMap;
 import java.util.Map;

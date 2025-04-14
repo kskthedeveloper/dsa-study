@@ -4,10 +4,9 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.me.leetcodestudy.TestCase;
 import org.me.leetcodestudy.TestRunner;
+import org.me.leetcodestudy.arrayandhashing.anagramGroup.SortingBasedHashMapApproach;
 
 import java.util.List;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 class SortingBasedHashMapApproachTest {
     private static List<TestCase<String[], List<List<String>>>> testCases;

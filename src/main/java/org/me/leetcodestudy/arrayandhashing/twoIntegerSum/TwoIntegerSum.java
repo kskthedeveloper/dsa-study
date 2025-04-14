@@ -1,4 +1,4 @@
-package org.me.leetcodestudy.twoIntegerSum;
+package org.me.leetcodestudy.arrayandhashing.twoIntegerSum;
 
 /*
 Two Integer Sum

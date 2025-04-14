@@ -1,4 +1,4 @@
-package org.me.leetcodestudy.anagramGroup;
+package org.me.leetcodestudy.arrayandhashing.anagramGroup;
 
 import org.me.leetcodestudy.Algorithm;
 

@@ -4,6 +4,10 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.me.leetcodestudy.TestCase;
 import org.me.leetcodestudy.TestRunner;
+import org.me.leetcodestudy.arrayandhashing.isAnagram.AnagramChecker;
+import org.me.leetcodestudy.arrayandhashing.isAnagram.HashTableApproach;
+import org.me.leetcodestudy.arrayandhashing.isAnagram.SingleArrayApproach;
+import org.me.leetcodestudy.arrayandhashing.isAnagram.SortingApproach;
 
 import java.util.List;
 

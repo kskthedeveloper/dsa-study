@@ -1,4 +1,4 @@
-package org.me.leetcodestudy.containsDuplicate;
+package org.me.leetcodestudy.arrayandhashing.containsDuplicate;
 
 /*
 Easy
